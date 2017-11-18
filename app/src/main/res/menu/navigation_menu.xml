@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/memberAdd"
+
+            android:title="History"
+            android:icon="@drawable/history"/>
+        <item
+            android:id="@+id/reportToDmp"
+            android:title="Report to DMP"/>
+            />
+        <item
+            android:id="@+id/history"
+            android:title="Notifications"
+            android:icon="@drawable/notifications"/>
+        <item
+        android:id="@+id/emergency_call"
+        android:title="Emergency call"
+            android:icon="@drawable/medical"
+            />
+        <item
+            android:id="@+id/logout"
+            android:title="Settings"
+            android:icon="@drawable/settings"
+            />
+
+
+    </menu>

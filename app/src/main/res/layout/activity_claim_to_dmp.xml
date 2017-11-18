@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bd.com.thedebuggers.gontobbo.passenger.ClaimToDmpActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarofAc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            ></android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/v_name"
+        android:background="@null"
+        android:hint="Victim name"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="#ccc"
+        android:layout_height="1dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/sub_name"
+        android:background="@null"
+        android:hint="Subject"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="#ccc"
+        android:layout_height="1dp"/>
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+        android:id="@+id/vehical_id"
+        android:background="@null"
+    android:hint="Vehicle id "/>
+    <View
+        android:layout_width="match_parent"
+        android:background="#ccc"
+        android:layout_height="1dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:id="@+id/description"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="Description "/>
+    <View
+        android:layout_width="match_parent"
+        android:background="#ccc"
+        android:layout_height="1dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#fff"
+        android:id="@+id/sendbtn"
+        android:background="@color/colorPrimary"
+        android:text="Send"/>
+
+    </LinearLayout>
