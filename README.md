@@ -1,6 +1,10 @@
 # Gontobbo-IUT-ICT-FEST-HACKATHON-
 ## Introduction
-This is our hackathon project we were working with traffic problems in dhaka and time was only 22 hours.
+This is our hackathon project we were working with traffic problems in dhaka and time was only 19 hours.
+
+## How it works
+
+This app has two users modes one is passenger and another is driver. App takes data to GPS and send it to the database which is connected to the internet.When driver open the app he/she can see the road condition followed by the red dot on the map and density of red dots.after that passenger will decide which way to go for his/her desire destination.
 ## Demo
 
 ![received_358597464595109](https://user-images.githubusercontent.com/19147835/34781191-60647096-f64f-11e7-8dc5-334bf816e373.png)
